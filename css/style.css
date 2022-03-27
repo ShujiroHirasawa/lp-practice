@@ -6,6 +6,7 @@
 
 header{
   background: #fff;
+  padding: 15px 0;
 }
 
 .header-logo{
@@ -16,8 +17,6 @@ header{
 
 .header-left a{
   color: #777;
-  margin-top: 15px;
-  margin-bottom: 15px;
 }
 
 .header-right a{
@@ -28,11 +27,14 @@ header{
   text-decoration: none;
   display: block;
   transition: 0.3s;
-  margin-top: 15px;
 }
 
 .header-right a:hover{
   color: #333;
+}
+
+section{
+  padding-top: 50px;
 }
 
 .work{
@@ -50,7 +52,6 @@ header{
 }
 
 .works{
-  padding-top: 50px;
   display: flex;
   margin: 0 auto;
 }
@@ -80,13 +81,13 @@ header{
 .keyvisual{
   background-image: url(../img/keyvisual/keyvisual.jpg);
   background-size: cover;
+  padding: 400px 0;
 }
 
 .key h1{
   font-size: 65px;
   font-weight: 700;
   color: #6ba7eb;
-  padding-top: 400px;
   padding-bottom: 30px;
 }
 
@@ -94,14 +95,13 @@ header{
   font-size: 40px;
   font-weight: 700;
   color: #ffffff;
-  padding-bottom: 400px;
 }
 
 .skillword h1{
   font-size: 40px;
   letter-spacing: 10px;
   text-align: center;
-  padding: 50px 0;
+  margin-bottom: 50px;
 }
 
 .imgs{
@@ -137,7 +137,7 @@ header{
 
 .plan h1{
   text-align: center;
-  padding: 50px 0;
+  margin-bottom: 50px;
   font-size: 40px;
   letter-spacing: 10px;
 }
