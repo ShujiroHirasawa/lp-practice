@@ -36,6 +36,40 @@ header{
   color: #333;
 }
 
+.humberger{
+  position: relative;
+  height: 46px;
+  width: 46px;
+  display: none;
+  box-sizing: border-box;
+  background-color: #fff;
+  border: 2px solid #444;
+  border-radius: 4px;
+}
+
+.humberger div{
+  position: absolute;
+  left: 7px;
+  height: 2px;
+  width: 28px;
+  background-color: #444;
+  border-radius: 2px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.humberger div:nth-of-type(1) {
+  bottom: 30px;
+}
+
+.humberger div:nth-of-type(2) {
+  bottom: 20px;
+}
+
+.humberger div:nth-of-type(3) {
+  bottom: 10px;
+}
+
 section{
   padding-top: 50px;
 }
@@ -214,3 +248,105 @@ footer{
   letter-spacing: 0.5px;
   text-align: right;
 }
+
+@media screen and (max-width:767px){
+  .humberger{
+    display: inline-block;
+  }
+  .header-right a{
+    display: none;
+  }
+  .workpc{
+    width: 100%;
+  }
+  .works{
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  .workword{
+    width:100%;
+  }
+  .key{
+    text-align: center;
+  }
+  .keyvisual{
+    padding: 200px 0;
+  }
+  .key h1{
+    font-size: 40px;
+  }
+  .key h2{
+    font-size: 30px;
+  }
+  .imgs ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+  img{
+    vertical-align: top;
+  }
+  li{
+    margin: 0;
+  }
+  ul li:nth-child(3n){
+    margin-bottom: 80px;
+  }
+  ul li:last-child{
+    margin-bottom: 0;
+  }
+  thead th{
+    font-size: 14px;
+    line-height: 22px;
+  }
+  td{
+      font-size: 12px;
+    }
+    .snses{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      padding: 50px 15px;
+    }
+    .snses a{
+      padding: 50px 0;
+    }
+  }
+
+    @media screen and (max-width: 1199px) {
+      .workpc{
+        width: 100%;
+      }
+      .works{
+        display: block;
+        width: 100%;
+        text-align: center;
+      }
+      .workword{
+        width:100%;
+      }
+      .keyvisual{
+        padding: 250px 0;
+      }
+      .imgs ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+      }
+      img{
+        vertical-align: top;
+      }
+      li{
+        margin: 0;
+      }
+      ul li:nth-child(3n){
+        margin-bottom: 80px;
+      }
+        ul li:last-child{
+          margin-bottom: 0;
+      }
+    }
