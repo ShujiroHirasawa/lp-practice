@@ -86,6 +86,7 @@ section{
 
 .workpc img{
   width: 250px;
+  height: auto;
 }
 
 .works{
@@ -256,17 +257,6 @@ footer{
   .header-right a{
     display: none;
   }
-  .workpc{
-    width: 100%;
-  }
-  .works{
-    display: block;
-    width: 100%;
-    text-align: center;
-  }
-  .workword{
-    width:100%;
-  }
   .key{
     text-align: center;
   }
@@ -278,24 +268,6 @@ footer{
   }
   .key h2{
     font-size: 30px;
-  }
-  .imgs ul{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0;
-  }
-  img{
-    vertical-align: top;
-  }
-  li{
-    margin: 0;
-  }
-  ul li:nth-child(3n){
-    margin-bottom: 80px;
-  }
-  ul li:last-child{
-    margin-bottom: 0;
   }
   thead th{
     font-size: 14px;
@@ -317,6 +289,9 @@ footer{
   }
 
     @media screen and (max-width: 1199px) {
+      .inner{
+        width: 97%;
+      }
       .workpc{
         width: 100%;
       }
