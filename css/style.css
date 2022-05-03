@@ -70,13 +70,10 @@ header{
   bottom: 10px;
 }
 
-section{
-  padding-top: 50px;
-}
-
 .work{
   background: #e3f2fd;
   display: flex;
+  padding-top: 50px;
 }
 
 .workpc{
@@ -113,12 +110,13 @@ section{
 
 .key{
   text-align: center;
+  padding: 400px 0;
 }
 
 .keyvisual{
   background-image: url(../img/keyvisual/keyvisual.jpg);
   background-size: cover;
-  padding: 400px 0;
+  padding: 15px 0;
 }
 
 .key h1{
@@ -135,6 +133,7 @@ section{
 }
 
 .skills{
+  padding-top: 50px;
   padding-bottom: 70px;
 }
 
@@ -176,6 +175,7 @@ ul li:nth-last-child(-n+3){
 
 .plan{
   background: #d0dfea;
+  padding-top: 50px;
   padding-bottom: 50px;
 }
 
