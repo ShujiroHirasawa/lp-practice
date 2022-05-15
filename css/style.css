@@ -288,6 +288,7 @@ footer{
   }
   .snses a{
       padding: 50px 0;
+      width: 100%;
   }
 }
 
@@ -313,6 +314,9 @@ footer{
   }
   .workword{
       width:100%;
+  }
+  .workword p{
+    padding-bottom: 50px;
   }
   .keyvisual{
       padding: 250px 0;
